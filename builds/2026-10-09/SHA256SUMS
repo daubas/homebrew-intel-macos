@@ -1,0 +1,4 @@
+31858ee0944e8d31443e3cabc319ccf6a028fb848c0e6bda7ad70347d073b3df  deno-2.9.7.macos15-x86_64.local-build.tar.gz
+07b4a63dc18c579637a1bb211f42262ac2baa90feeefd1619861b19aadd2a65c  llvm-23.1.2.macos15-x86_64.local-build.tar.gz
+3b9aa342ff7a45a119176b873194eed2ae992888d1832e31dc3b01553401588a  rust-1.99.0.macos15-x86_64.local-build.tar.gz
+62ac7ec8952bab73a9dd490aa16f768f1be57bd61ebee528c1375866eb492f0a  zig@0.16-0.16.0.macos15-x86_64.local-build.tar.gz

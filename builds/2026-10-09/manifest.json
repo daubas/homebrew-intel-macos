@@ -1,0 +1,334 @@
+{
+  "release": "local-builds-2026-10-09",
+  "status": "experimental-local-build-archives-not-bottles",
+  "architecture": "x86_64",
+  "prefix": "/usr/local",
+  "verification": "gzip integrity, archive structure, included licenses/receipts/formula snapshots, and source-machine functional smoke tests; no clean-machine installation test",
+  "packages": [
+    {
+      "name": "deno",
+      "version": "2.9.7",
+      "asset": "deno-2.9.7.macos15-x86_64.local-build.tar.gz",
+      "sha256": "31858ee0944e8d31443e3cabc319ccf6a028fb848c0e6bda7ad70347d073b3df",
+      "bytes": 52133097,
+      "built_as_bottle": false,
+      "built_on": {
+        "os": "Macintosh",
+        "os_version": "macOS 15.7",
+        "cpu_family": "kabylake",
+        "xcode": "26.3",
+        "clt": "26.3.0.0.1.1771626560",
+        "preferred_perl": "5.34"
+      },
+      "compiler": "clang",
+      "runtime_dependencies": [
+        {
+          "full_name": "jpeg-turbo",
+          "version": "3.2.0",
+          "revision": 0,
+          "pkg_version": "3.2.0",
+          "declared_directly": false
+        },
+        {
+          "full_name": "giflib",
+          "version": "6.1.3",
+          "revision": 0,
+          "pkg_version": "6.1.3",
+          "declared_directly": false
+        },
+        {
+          "full_name": "libpng",
+          "version": "1.6.59",
+          "revision": 0,
+          "pkg_version": "1.6.59",
+          "declared_directly": false
+        },
+        {
+          "full_name": "webp",
+          "version": "1.6.0",
+          "revision": 0,
+          "pkg_version": "1.6.0",
+          "declared_directly": false
+        },
+        {
+          "full_name": "xz",
+          "version": "5.8.4",
+          "revision": 0,
+          "pkg_version": "5.8.4",
+          "declared_directly": false
+        },
+        {
+          "full_name": "lz4",
+          "version": "1.10.0",
+          "revision": 0,
+          "pkg_version": "1.10.0",
+          "declared_directly": false
+        },
+        {
+          "full_name": "zstd",
+          "version": "1.5.7",
+          "revision": 1,
+          "bottle_rebuild": 0,
+          "pkg_version": "1.5.7_1",
+          "declared_directly": false
+        },
+        {
+          "full_name": "libtiff",
+          "version": "4.7.2",
+          "revision": 0,
+          "pkg_version": "4.7.2",
+          "declared_directly": false
+        },
+        {
+          "full_name": "little-cms2",
+          "version": "2.19.1",
+          "revision": 0,
+          "pkg_version": "2.19.1",
+          "declared_directly": true
+        },
+        {
+          "full_name": "readline",
+          "version": "8.3.6",
+          "revision": 0,
+          "pkg_version": "8.3.6",
+          "declared_directly": false
+        },
+        {
+          "full_name": "sqlite",
+          "version": "3.53.4",
+          "revision": 0,
+          "bottle_rebuild": 1,
+          "pkg_version": "3.53.4",
+          "declared_directly": true
+        }
+      ]
+    },
+    {
+      "name": "llvm",
+      "version": "23.1.2",
+      "asset": "llvm-23.1.2.macos15-x86_64.local-build.tar.gz",
+      "sha256": "07b4a63dc18c579637a1bb211f42262ac2baa90feeefd1619861b19aadd2a65c",
+      "bytes": 410229548,
+      "built_as_bottle": false,
+      "built_on": {
+        "os": "Macintosh",
+        "os_version": "macOS 15.7",
+        "cpu_family": "kabylake",
+        "xcode": "26.3",
+        "clt": "26.3.0.0.1.1771626560",
+        "preferred_perl": "5.34"
+      },
+      "compiler": "clang",
+      "runtime_dependencies": [
+        {
+          "full_name": "lz4",
+          "version": "1.10.0",
+          "revision": 0,
+          "pkg_version": "1.10.0",
+          "declared_directly": false
+        },
+        {
+          "full_name": "xz",
+          "version": "5.8.4",
+          "revision": 0,
+          "pkg_version": "5.8.4",
+          "declared_directly": false
+        },
+        {
+          "full_name": "zstd",
+          "version": "1.5.7",
+          "revision": 1,
+          "bottle_rebuild": 0,
+          "pkg_version": "1.5.7_1",
+          "declared_directly": true
+        },
+        {
+          "full_name": "z3",
+          "version": "5.1.0",
+          "revision": 0,
+          "bottle_rebuild": 0,
+          "pkg_version": "5.1.0",
+          "declared_directly": true
+        }
+      ]
+    },
+    {
+      "name": "rust",
+      "version": "1.99.0",
+      "asset": "rust-1.99.0.macos15-x86_64.local-build.tar.gz",
+      "sha256": "3b9aa342ff7a45a119176b873194eed2ae992888d1832e31dc3b01553401588a",
+      "bytes": 129942628,
+      "built_as_bottle": false,
+      "built_on": {
+        "os": "Macintosh",
+        "os_version": "macOS 15.7",
+        "cpu_family": "kabylake",
+        "xcode": "26.3",
+        "clt": "26.3.0.0.1.1771626560",
+        "preferred_perl": "5.34"
+      },
+      "compiler": "clang",
+      "runtime_dependencies": [
+        {
+          "full_name": "ca-certificates",
+          "version": "2026-09-25",
+          "revision": 0,
+          "bottle_rebuild": 0,
+          "pkg_version": "2026-09-25",
+          "declared_directly": false
+        },
+        {
+          "full_name": "openssl@3",
+          "version": "3.6.5",
+          "revision": 0,
+          "pkg_version": "3.6.5",
+          "declared_directly": true
+        },
+        {
+          "full_name": "libssh2",
+          "version": "1.11.1",
+          "revision": 6,
+          "pkg_version": "1.11.1_6",
+          "declared_directly": true
+        },
+        {
+          "full_name": "llhttp",
+          "version": "9.4.3",
+          "revision": 0,
+          "bottle_rebuild": 0,
+          "pkg_version": "9.4.3",
+          "declared_directly": false
+        },
+        {
+          "full_name": "libgit2",
+          "version": "1.9.7",
+          "revision": 1,
+          "pkg_version": "1.9.7_1",
+          "declared_directly": true
+        },
+        {
+          "full_name": "lz4",
+          "version": "1.10.0",
+          "revision": 0,
+          "pkg_version": "1.10.0",
+          "declared_directly": false
+        },
+        {
+          "full_name": "xz",
+          "version": "5.8.4",
+          "revision": 0,
+          "pkg_version": "5.8.4",
+          "declared_directly": false
+        },
+        {
+          "full_name": "zstd",
+          "version": "1.5.7",
+          "revision": 1,
+          "bottle_rebuild": 0,
+          "pkg_version": "1.5.7_1",
+          "declared_directly": false
+        },
+        {
+          "full_name": "z3",
+          "version": "5.1.0",
+          "revision": 0,
+          "bottle_rebuild": 0,
+          "pkg_version": "5.1.0",
+          "declared_directly": false
+        },
+        {
+          "full_name": "llvm",
+          "version": "23.1.2",
+          "revision": 0,
+          "pkg_version": "23.1.2",
+          "declared_directly": true
+        },
+        {
+          "full_name": "pkgconf",
+          "version": "3.0.7",
+          "revision": 0,
+          "pkg_version": "3.0.7",
+          "declared_directly": true
+        },
+        {
+          "full_name": "readline",
+          "version": "8.3.6",
+          "revision": 0,
+          "pkg_version": "8.3.6",
+          "declared_directly": false
+        },
+        {
+          "full_name": "sqlite",
+          "version": "3.53.4",
+          "revision": 0,
+          "bottle_rebuild": 1,
+          "pkg_version": "3.53.4",
+          "declared_directly": true
+        }
+      ]
+    },
+    {
+      "name": "zig@0.16",
+      "version": "0.16.0",
+      "asset": "zig@0.16-0.16.0.macos15-x86_64.local-build.tar.gz",
+      "sha256": "62ac7ec8952bab73a9dd490aa16f768f1be57bd61ebee528c1375866eb492f0a",
+      "bytes": 46604182,
+      "built_as_bottle": false,
+      "built_on": {
+        "os": "Macintosh",
+        "os_version": "macOS 15.7",
+        "cpu_family": "kabylake",
+        "xcode": "26.3",
+        "clt": "26.3.0.0.1.1771626560",
+        "preferred_perl": "5.34"
+      },
+      "compiler": "clang",
+      "runtime_dependencies": [
+        {
+          "full_name": "lz4",
+          "version": "1.10.0",
+          "revision": 0,
+          "pkg_version": "1.10.0",
+          "declared_directly": false
+        },
+        {
+          "full_name": "xz",
+          "version": "5.8.4",
+          "revision": 0,
+          "pkg_version": "5.8.4",
+          "declared_directly": false
+        },
+        {
+          "full_name": "zstd",
+          "version": "1.5.7",
+          "revision": 1,
+          "bottle_rebuild": 0,
+          "pkg_version": "1.5.7_1",
+          "declared_directly": true
+        },
+        {
+          "full_name": "llvm@21",
+          "version": "21.1.8",
+          "revision": 0,
+          "bottle_rebuild": 0,
+          "pkg_version": "21.1.8",
+          "declared_directly": true
+        },
+        {
+          "full_name": "lld@21",
+          "version": "21.1.8",
+          "revision": 1,
+          "bottle_rebuild": 0,
+          "pkg_version": "21.1.8_1",
+          "declared_directly": true
+        }
+      ]
+    }
+  ],
+  "smoke_tests": {
+    "deno": "eval arithmetic assertion",
+    "llvm": "compile and execute a C program",
+    "rust": "compile and execute a Rust program",
+    "zig@0.16": "compile and run a Zig unit test"
+  }
+}
